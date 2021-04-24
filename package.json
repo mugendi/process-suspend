@@ -1,35 +1,35 @@
 {
-  "name": "process-suspend",
-  "version": "0.0.1",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "ntsuspend": "^1.0.1"
-  },
-  "description": "Cross Platform way to suspend and resume processes at will.",
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "process",
-    "suspend",
-    "resume",
-    "child",
-    "spawn",
-    "exec",
-    "windows",
-    "OSX",
-    "linux",
-    "cross-platform"
-  ],
-  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mugendi/process-suspend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mugendi/process-suspend/issues"
-  },
-  "homepage": "https://github.com/mugendi/process-suspend#readme"
+    "name": "process-suspend",
+    "version": "0.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "ntsuspend": "^1.0.2"
+    },
+    "description": "Cross Platform way to suspend and resume processes at will.",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "process",
+        "suspend",
+        "resume",
+        "child",
+        "spawn",
+        "exec",
+        "windows",
+        "OSX",
+        "linux",
+        "cross-platform"
+    ],
+    "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mugendi/process-suspend.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mugendi/process-suspend/issues"
+    },
+    "homepage": "https://github.com/mugendi/process-suspend#readme"
 }

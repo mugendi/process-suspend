@@ -9,7 +9,7 @@ Install via ```yarn add process-suspend``` and have fun.
 
 ```javascript
 
-    const { spawn } = require('child_ourFunkyProcess');
+    const { spawn } = require('child_process');
     const sProc = require("process-suspend");
 
     // start your our funky process...
@@ -37,7 +37,7 @@ Simply then suspend and resume as follows.
 
 ```javascript
 
-    const { spawn } = require('child_ourFunkyProcess');
+    const { spawn } = require('child_process');
     const {suspend, resume} = require("process-suspend");
 
     // start your our funky process...
