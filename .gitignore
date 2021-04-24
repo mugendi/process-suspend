@@ -1,0 +1,14 @@
+/target
+**/*.rs.bk
+.cargo
+/tantivy
+Cargo.lock
+package-lock.json
+data
+_foo
+_old
+node_modules
+.vscode
+/dist
+*.tar.gz
+*.zip
