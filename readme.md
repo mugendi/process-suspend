@@ -1,6 +1,6 @@
 # Suspend and Resume processes at will
 
-This module rides on the amazing [ntsuspend]() to provide a cross platform way to suspend and resume child processes in NodeJs.
+This module rides on the amazing [ntsuspend](https://github.com/FedericoCarboni/node-ntsuspend) to provide a cross platform way to suspend and resume child processes in NodeJs.
 
 This is occasioned by the fact that Windows does not support ```SIGSTOP``` and ```SIGCONT``` signals.
 
