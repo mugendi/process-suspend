@@ -29,6 +29,7 @@ Install via ```yarn add process-suspend``` and have fun.
 
 ```
 
+**NOTE:** You also get a boolean ```isSuspended``` added to the process so you can always check the state using ```process.isSuspended```.
 
 # Don't Like Binding
 There's a school of thought that says you should never tamper with default objects. Coolio. 
@@ -53,3 +54,5 @@ Simply then suspend and resume as follows.
 
 ```
 
+
+**NOTE:** Please use ```spawn``` and not ```exec``` with this module.

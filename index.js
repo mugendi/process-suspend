@@ -1,4 +1,10 @@
-const ntsuspend = require('ntsuspend');
+// only load for windows
+let ntsuspend;
+
+if (isWindows()) {
+    ntsuspend = require('ntsuspend');
+}
+
 
 
 function suspend(process, updateIsSuspended) {
