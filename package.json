@@ -1,15 +1,11 @@
 {
     "name": "process-suspend",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "main": "index.js",
     "license": "MIT",
-    "win32Dependencies": {
-        "ntsuspend": "^1.0.1"
-    },
     "description": "Cross Platform way to suspend and resume processes at will.",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "postinstall": "npmpd"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
         "process",
@@ -32,8 +28,7 @@
         "url": "https://github.com/mugendi/process-suspend/issues"
     },
     "homepage": "https://github.com/mugendi/process-suspend#readme",
-    "dependencies": {
-        "npm-platform-dependencies": "^0.1.0",
+    "optionalDependencies": {
         "ntsuspend": "^1.0.1"
     }
 }
